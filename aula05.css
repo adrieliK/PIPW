@@ -1,0 +1,39 @@
+*{
+  padding: 3;
+  margin: 5px;
+}
+body{
+  background-color: #FFFAFA;
+}
+.nome{
+  background-color: #EED2EE;
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+}
+
+.objetivo{
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+}
+
+.educacao{
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+}
+.experiencia{
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+}
+.habilidade{
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+}
+.atividade{
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+}
+
+#rodapePrincipal{
+  text-align: center;
+
+}
