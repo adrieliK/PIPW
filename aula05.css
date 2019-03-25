@@ -3,14 +3,34 @@
   margin: 5px;
 }
 body{
-  background-color: #FFFAFA;
+  background-color: #F6D8CE;
+  width: 800px;
+
+  margin: 0px auto;
+}
+#curriculo {
+background-color: #F78181;
+  /* Define a largura de um elemento/tag */
+  width: 800px;
+  /* Definir '0' ou outro valor para as margens de cima e de baixo
+  e "auto" para as margens laterais */
+  margin: 0px auto;
+
 }
 .nome{
-  background-color: #EED2EE;
   /* Altera o tamanho da fonte */
   font-size: 20px;
+  float: left;
 }
 
+.dados-pessoais{
+  /* Altera o tamanho da fonte */
+  font-size: 20px;
+  float: right;
+}
+.limpar-float{
+  clear: both;
+}
 .objetivo{
   /* Altera o tamanho da fonte */
   font-size: 20px;
