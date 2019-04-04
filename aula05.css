@@ -3,12 +3,12 @@
   margin: 5px;
 }
 body{
-  background-color: #F6D8CE;
+  background-color: ;
   width: 800px;
 
   margin: 0px auto;
 }
-#curriculo {
+#cima {
 background-color: #F78181;
   /* Define a largura de um elemento/tag */
   width: 800px;
@@ -19,11 +19,29 @@ background-color: #F78181;
 /* tamanho da borda*/
   border-width: 5px;
   /*cor da borda*/
-  border-color: #4B0082;
+  border-color: #FFFFFF;
 
   /* "margem interna" pode ser alternada utilizando o */
   padding: 1;
 }
+
+#baixo {
+background-color: #F6D8CE;
+  /* Define a largura de um elemento/tag */
+  width: 800px;
+  /* Definir '0' ou outro valor para as margens de cima e de baixo
+  e "auto" para as margens laterais */
+  margin: 0px auto;
+  border-style: solid;
+/* tamanho da borda*/
+  border-width: 5px;
+  /*cor da borda*/
+  border-color: #FFFFFF;
+
+  /* "margem interna" pode ser alternada utilizando o */
+  padding: 1;
+}
+
 .nome{
   /* Altera o tamanho da fonte */
   font-size: 20px;
@@ -63,4 +81,7 @@ background-color: #F78181;
 #rodapePrincipal{
   text-align: center;
 
+}
+.limpar-float{
+  clear: both;
 }
